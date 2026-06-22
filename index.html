@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Bahaa — CS Builder & ML Engineer</title>
+<meta name="description" content="Mohamed Bahaa — CS student who builds real ML systems and can explain them to anyone. 3.69 GPA, 83.51% AUC heart disease model, bilingual NLP recommender, and more.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Background layers -->
+<canvas id="bg-canvas"></canvas>
+<div class="grid-layer"></div>
+
+<!-- ── NAV ─────────────────────────────────────────────────── -->
+<nav>
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="brand-pulse"></span>
+      mb.<em>dev</em>
+    </a>
+    <div class="navlinks">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Stack</a>
+      <a href="#education">Journey</a>
+      <a href="#contact" class="nav-hire">Hire Me</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ── HERO ─────────────────────────────────────────────────── -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+
+    <!-- LEFT: TEXT -->
+    <div class="hero-text">
+
+      <div class="term-label r">cs_student · ml_builder · cairo</div>
+
+      <h1 class="hero-name r">
+        <span>Mohamed</span>
+        <span class="line-2">Bahaa.</span>
+      </h1>
+
+      <div class="hero-sub r">
+        <span id="typewriter"></span><span class="cursor"></span>
+      </div>
+
+      <p class="hero-bio r">
+        I'm a 3rd-year CS student who doesn't just learn concepts —
+        I <span class="hl">build with them</span> until they work.
+        I can take any ML paper and explain it to a friend over coffee.
+        My projects are <span class="hl-neon">end-to-end</span> and the numbers are real.
+      </p>
+
+      <div class="proof-line r">
+        <span class="proof-item"><span class="dot"></span>3.69 / 4.0 GPA</span>
+        <span class="proof-item"><span class="dot"></span>2× Competition Silver</span>
+        <span class="proof-item"><span class="dot"></span>IEEE Member</span>
+        <span class="proof-item"><span class="dot"></span>MSA University</span>
+      </div>
+
+      <div class="hero-cta r">
+        <a class="btn btn-neon" href="#projects">See My Work →</a>
+        <a class="btn btn-ghost" href="https://github.com/MB1382005" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+
+      <div class="hero-stats r">
+        <div class="hstat"><span class="v" data-target="83.51" data-suffix="%">0%</span><span class="l">Best AUC Score</span></div>
+        <div class="hstat"><span class="v" data-target="301717" data-suffix="">0</span><span class="l">Clinical Samples</span></div>
+        <div class="hstat"><span class="v" data-target="3.69" data-suffix="">0</span><span class="l">GPA / 4.0</span></div>
+        <div class="hstat"><span class="v" data-target="10" data-suffix="+">0+</span><span class="l">Live Repos</span></div>
+      </div>
+    </div>
+
+    <!-- RIGHT: HOLOGRAM PHOTO -->
+    <div class="photo-holo r">
+      <div class="holo-ring">
+        <div class="holo-img brackets">
+          <img src="professional_headshot.png" alt="Mohamed Bahaa — CS Builder">
+          <span class="tl"></span><span class="tr"></span>
+          <span class="bl"></span><span class="br"></span>
+        </div>
+        <div class="holo-chip">
+          <span class="holo-chip-name">Mohamed Bahaa Attia</span>
+          <span class="holo-chip-role">CS · AI · ML — Cairo, Egypt</span>
+        </div>
+      </div>
+      <div class="holo-tags">
+        <span class="htag c1">⚡ TensorFlow</span>
+        <span class="htag c2">🧠 Deep Learning</span>
+        <span class="htag c3">🔍 NLP</span>
+        <span class="htag c4">📊 Data Science</span>
+        <span class="htag c1">🚀 Flask</span>
+        <span class="htag c2">🎮 C# Games</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── ABOUT ────────────────────────────────────────────────── -->
+<section id="about">
+  <div class="wrap">
+    <div class="sec-header r">
+      <div class="sec-pre">01 — About</div>
+      <h2 class="sec-title">Why hire someone <span>who can explain</span></h2>
+    </div>
+
+    <div class="about-cols">
+      <div class="card about-card r">
+        <p>
+          I've been deep in CS for 3 years straight — not just to pass exams,
+          but because <strong>I genuinely enjoy building things</strong> that work.
+          My GPA reflects that, but what I'm prouder of is understanding
+          <em class="c">why</em> things work.
+        </p>
+        <p>
+          One of my strengths: I can take a dense topic — backpropagation,
+          attention mechanisms, stacking ensembles — and break it down
+          <strong>in a way that clicks for the person I'm talking to</strong>.
+          That's rare in this field and useful in every team.
+        </p>
+        <div class="about-tags">
+          <span class="about-tag">3.69 / 4.0</span>
+          <span class="about-tag">MSA University</span>
+          <span class="about-tag">Giza, Egypt</span>
+          <span class="about-tag">Oct 2023 — Present</span>
+        </div>
+      </div>
+
+      <div class="card about-card r">
+        <p>
+          I don't just train models — I <strong>ship them</strong>. The heart disease
+          predictor has a full validation pipeline. The laptop recommender
+          has a bilingual NLP intent engine with a deployed Flask UI
+          that <em class="c">normal people can actually use</em>.
+        </p>
+        <p>
+          Currently expanding into cloud (AWS track) and Huawei HCIA-AI.
+          Active IEEE member. Competed in MSA's Deep Minds competition
+          <strong>twice, finishing 2nd both times</strong> with a full ERP system
+          for a real clothing manufacturer.
+        </p>
+        <div class="about-tags">
+          <span class="about-tag">AWS AI Masters</span>
+          <span class="about-tag">Huawei HCIA-AI</span>
+          <span class="about-tag">IEEE Member</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PROJECTS ─────────────────────────────────────────────── -->
+<section id="projects">
+  <div class="wrap">
+    <div class="sec-header r">
+      <div class="sec-pre">02 — Projects</div>
+      <h2 class="sec-title">Things I actually <span>built</span></h2>
+    </div>
+
+    <div class="filter-row r">
+      <button class="fb on"  data-f="all">All</button>
+      <button class="fb" data-f="ml">AI · ML</button>
+      <button class="fb" data-f="sw">Software</button>
+      <button class="fb" data-f="gm">Games</button>
+      <button class="fb" data-f="gx">Graphics</button>
+    </div>
+
+    <div class="proj-grid">
+
+      <a class="card pcard r" href="projects/heart-disease.html" data-c="ml">
+        <div class="pcat">AI · Clinical Data</div>
+        <div class="ptitle">Heart Disease Prediction</div>
+        <div class="pdesc">I took 301K messy CDC records, engineered 15 features, balanced it with SMOTE, stacked 5 models — and got <strong>83.51% AUC</strong> on a real 60K hold-out set nobody touched during training.</div>
+        <div class="pstack"><span class="ptag">Python</span><span class="ptag">XGBoost</span><span class="ptag">LightGBM</span><span class="ptag">Scikit-learn</span><span class="ptag">SMOTE</span></div>
+        <div class="pmetrics">
+          <div class="pm"><span class="mv">83.51%</span><span class="ml">AUC</span></div>
+          <div class="pm"><span class="mv">301K</span><span class="ml">Samples</span></div>
+          <div class="pm"><span class="mv">5-Stack</span><span class="ml">Ensemble</span></div>
+        </div>
+        <div class="parrow">Full breakdown →</div>
+      </a>
+
+      <a class="card pcard r" href="projects/laptop-recommender.html" data-c="ml">
+        <div class="pcat">NLP · Flask · Arabic + English</div>
+        <div class="ptitle">AI Laptop Recommender</div>
+        <div class="pdesc">Built a bilingual intent engine (AR/EN) using TensorFlow embeddings and cosine similarity. Packaged it into a Flask web app that a non-technical person can open and use immediately.</div>
+        <div class="pstack"><span class="ptag">Python</span><span class="ptag">TensorFlow</span><span class="ptag">Flask</span><span class="ptag">NLP</span><span class="ptag">BM25</span></div>
+        <div class="pmetrics">
+          <div class="pm"><span class="mv">AR+EN</span><span class="ml">Bilingual</span></div>
+          <div class="pm"><span class="mv">8+</span><span class="ml">Intents</span></div>
+          <div class="pm"><span class="mv">Live</span><span class="ml">Flask UI</span></div>
+        </div>
+        <div class="parrow">See architecture →</div>
+      </a>
+
+      <a class="card pcard r" href="projects/brain-tumor.html" data-c="ml">
+        <div class="pcat">CNN · Computer Vision · MRI</div>
+        <div class="ptitle">Brain Tumor Classification</div>
+        <div class="pdesc">Trained a CNN to classify brain tumor types from MRI scans. Full preprocessing pipeline — resize, normalize, augment — then multi-class classification with Keras.</div>
+        <div class="pstack"><span class="ptag">Python</span><span class="ptag">TensorFlow</span><span class="ptag">Keras</span><span class="ptag">OpenCV</span></div>
+        <div class="pmetrics">
+          <div class="pm"><span class="mv">CNN</span><span class="ml">Architecture</span></div>
+          <div class="pm"><span class="mv">4-Class</span><span class="ml">Output</span></div>
+          <div class="pm"><span class="mv">MRI</span><span class="ml">Imaging</span></div>
+        </div>
+        <div class="parrow">See pipeline →</div>
+      </a>
+
+      <a class="card pcard r" href="projects/maze-solver.html" data-c="ml sw">
+        <div class="pcat">Algorithms · Visualization</div>
+        <div class="ptitle">Maze Search Algorithms</div>
+        <div class="pdesc">Visual comparison of BFS, DFS, and A* running live — you can watch each algorithm explore the maze in real time and compare step counts and solve times.</div>
+        <div class="pstack"><span class="ptag">Python</span><span class="ptag">Tkinter</span><span class="ptag">A*</span><span class="ptag">Heuristics</span></div>
+        <div class="pmetrics">
+          <div class="pm"><span class="mv">3</span><span class="ml">Algorithms</span></div>
+          <div class="pm"><span class="mv">Live</span><span class="ml">Visual</span></div>
+          <div class="pm"><span class="mv">4</span><span class="ml">Heuristics</span></div>
+        </div>
+        <div class="parrow">See visualizer →</div>
+      </a>
+
+      <a class="card pcard r" href="projects/hotel-booking.html" data-c="sw">
+        <div class="pcat">C++ · OOP · Data Structures</div>
+        <div class="ptitle">C++ Hotel Booking System</div>
+        <div class="pdesc">Full hotel management CLI in C++ — custom linked lists for rooms, guests, admins, and bookings. File persistence, role-based menus, zero third-party libraries.</div>
+        <div class="pstack"><span class="ptag">C++</span><span class="ptag">OOP</span><span class="ptag">Linked Lists</span><span class="ptag">File I/O</span></div>
+        <div class="pmetrics">
+          <div class="pm"><span class="mv">4</span><span class="ml">Entities</span></div>
+          <div class="pm"><span class="mv">Roles</span><span class="ml">Auth</span></div>
+          <div class="pm"><span class="mv">Zero</span><span class="ml">Libraries</span></div>
+        </div>
+        <div class="parrow">See design →</div>
+      </a>
+
+      <a class="card pcard r" href="projects/platformer.html" data-c="gm">
+        <div class="pcat">C# · WinForms · Game Dev</div>
+        <div class="ptitle">2D Platformer Game</div>
+        <div class="pdesc">Built a side-scrolling game with 5 enemy types, boss fights, and double-buffered GDI+ rendering from scratch. Game loop, collision detection, animation frames — all hand-coded.</div>
+        <div class="pstack"><span class="ptag">C#</span><span class="ptag">.NET</span><span class="ptag">GDI+</span><span class="ptag">WinForms</span></div>
+        <div class="pmetrics">
+          <div class="pm"><span class="mv">5</span><span class="ml">Enemy Types</span></div>
+          <div class="pm"><span class="mv">Boss</span><span class="ml">Fight</span></div>
+          <div class="pm"><span class="mv">60fps</span><span class="ml">Loop</span></div>
+        </div>
+        <div class="parrow">See features →</div>
+      </a>
+
+      <a class="card pcard r" href="https://github.com/MB1382005/csharp-graphics-editor" target="_blank" rel="noopener" data-c="gx">
+        <div class="pcat">C# · Interactive Graphics</div>
+        <div class="ptitle">Vector Graphics Editor</div>
+        <div class="pdesc">2D vector editor — draw shapes, rearrange layers, resize canvas. Double-buffered GDI+ prevents flicker. A mini Figma built entirely from scratch.</div>
+        <div class="pstack"><span class="ptag">C#</span><span class="ptag">GDI+</span><span class="ptag">WinForms</span></div>
+        <div class="pmetrics">
+          <div class="pm"><span class="mv">Layers</span><span class="ml">System</span></div>
+          <div class="pm"><span class="mv">Vector</span><span class="ml">Shapes</span></div>
+          <div class="pm"><span class="mv">Live</span><span class="ml">Canvas</span></div>
+        </div>
+        <div class="parrow">GitHub ↗</div>
+      </a>
+
+      <a class="card pcard r" href="https://github.com/MB1382005/csharp-graphics-multimedia" target="_blank" rel="noopener" data-c="gx">
+        <div class="pcat">C# · Computer Graphics Labs</div>
+        <div class="ptitle">Graphics &amp; Multimedia Labs</div>
+        <div class="pdesc">Transformation matrices, custom rasterization, and pixel-level filters implemented from the math up. No shortcuts — every algorithm written and understood.</div>
+        <div class="pstack"><span class="ptag">C#</span><span class="ptag">GDI+</span><span class="ptag">Matrix Math</span></div>
+        <div class="pmetrics">
+          <div class="pm"><span class="mv">10+</span><span class="ml">Lab Demos</span></div>
+          <div class="pm"><span class="mv">Pixel</span><span class="ml">Filters</span></div>
+          <div class="pm"><span class="mv">Math</span><span class="ml">First</span></div>
+        </div>
+        <div class="parrow">GitHub ↗</div>
+      </a>
+
+      <a class="card pcard r" href="https://github.com/MB1382005/cpp-console-game" target="_blank" rel="noopener" data-c="gm">
+        <div class="pcat">C++ · ASCII · Windows API</div>
+        <div class="ptitle">Retro ASCII Console Game</div>
+        <div class="pdesc">Classic arcade game in C++ using Windows API for async keyboard input and double-buffered console screen writing. Fast, no artifacts, runs on any Windows machine.</div>
+        <div class="pstack"><span class="ptag">C++</span><span class="ptag">Windows API</span><span class="ptag">ASCII</span></div>
+        <div class="pmetrics">
+          <div class="pm"><span class="mv">ASCII</span><span class="ml">Renderer</span></div>
+          <div class="pm"><span class="mv">Async</span><span class="ml">Input</span></div>
+          <div class="pm"><span class="mv">0</span><span class="ml">Libraries</span></div>
+        </div>
+        <div class="parrow">GitHub ↗</div>
+      </a>
+
+      <a class="card pcard r" href="https://github.com/MB1382005/oosw" target="_blank" rel="noopener" data-c="sw">
+        <div class="pcat">OOP · Software Engineering</div>
+        <div class="ptitle">OOP Design Patterns Lab</div>
+        <div class="pdesc">Design patterns, UML modeling, and software architecture in code — the coursework where I learned to think in systems, not just functions.</div>
+        <div class="pstack"><span class="ptag">JavaScript</span><span class="ptag">UML</span><span class="ptag">Patterns</span></div>
+        <div class="pmetrics">
+          <div class="pm"><span class="mv">OOP</span><span class="ml">Patterns</span></div>
+          <div class="pm"><span class="mv">UML</span><span class="ml">Diagrams</span></div>
+          <div class="pm"><span class="mv">Systems</span><span class="ml">Thinking</span></div>
+        </div>
+        <div class="parrow">GitHub ↗</div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── SKILLS ───────────────────────────────────────────────── -->
+<section id="skills">
+  <div class="wrap">
+    <div class="sec-header r">
+      <div class="sec-pre">03 — Stack</div>
+      <h2 class="sec-title">Tools I <span>actually use</span></h2>
+    </div>
+    <div class="skills-g">
+      <div class="card scard r">
+        <div class="scat">ML &amp; AI</div>
+        <div class="stags">
+          <span class="spill">TensorFlow</span><span class="spill">Keras</span><span class="spill">Scikit-learn</span><span class="spill">XGBoost</span><span class="spill">LightGBM</span><span class="spill">SMOTE</span><span class="spill">NLP</span>
+        </div>
+      </div>
+      <div class="card scard r">
+        <div class="scat">Languages</div>
+        <div class="stags">
+          <span class="spill">Python</span><span class="spill">C++</span><span class="spill">C#</span><span class="spill">JavaScript</span><span class="spill">PHP</span><span class="spill">SQL</span>
+        </div>
+      </div>
+      <div class="card scard r">
+        <div class="scat">Data &amp; Analysis</div>
+        <div class="stags">
+          <span class="spill">Pandas</span><span class="spill">NumPy</span><span class="spill">EDA</span><span class="spill">Feature Eng.</span><span class="spill">Power BI</span><span class="spill">Statistics</span>
+        </div>
+      </div>
+      <div class="card scard r">
+        <div class="scat">Web &amp; Backend</div>
+        <div class="stags">
+          <span class="spill">Flask</span><span class="spill">PHP</span><span class="spill">HTML/CSS</span><span class="spill">Odoo ERP</span>
+        </div>
+      </div>
+      <div class="card scard r">
+        <div class="scat">Databases</div>
+        <div class="stags">
+          <span class="spill">PostgreSQL</span><span class="spill">MySQL</span>
+        </div>
+      </div>
+      <div class="card scard r">
+        <div class="scat">Tools</div>
+        <div class="stags">
+          <span class="spill">Git / GitHub</span><span class="spill">Jupyter</span><span class="spill">AWS Cloud</span><span class="spill">VS Code</span><span class="spill">OpenCV</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── JOURNEY ──────────────────────────────────────────────── -->
+<section id="education">
+  <div class="wrap">
+    <div class="sec-header r">
+      <div class="sec-pre">04 — Journey</div>
+      <h2 class="sec-title">How I got <span>here</span></h2>
+    </div>
+    <div class="tl r">
+      <div class="tli">
+        <div class="tdate">Oct 2023 — Present</div>
+        <div class="ttitle">B.Sc. Computer Science — AI &amp; Data Science</div>
+        <div class="torg">Modern Sciences and Arts University (MSA) · Giza, Egypt</div>
+        <div class="tdesc">GPA 3.69 / 4.0. Core: Data Structures, Algorithms, AI, Machine Learning, Information Retrieval, Databases, OOP, OS, Software Engineering.</div>
+      </div>
+      <div class="tli">
+        <div class="tdate">2024 — Present</div>
+        <div class="ttitle">Data Science &amp; AI Masters Track</div>
+        <div class="torg">Amazon Web Services (AWS) · Remote</div>
+        <div class="tdesc">Python, Data Analysis, Machine Learning, Deep Learning, SQL, Power BI, Generative AI.</div>
+      </div>
+      <div class="tli">
+        <div class="tdate">Sep 2025</div>
+        <div class="ttitle">HCIA-AI V4.0 Certified</div>
+        <div class="torg">Huawei ICT Academy · MSA Campus, Cairo</div>
+        <div class="tdesc">40 hrs covering ML fundamentals and Huawei AI technologies. Passed HCIA-AI V4.0.</div>
+      </div>
+      <div class="tli">
+        <div class="tdate">Apr 2024</div>
+        <div class="ttitle">Cloud Foundations</div>
+        <div class="torg">AWS Educate · Remote</div>
+        <div class="tdesc">Cloud 101, Compute, Networking, and Storage learning paths.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ACHIEVEMENTS ─────────────────────────────────────────── -->
+<section id="achievements">
+  <div class="wrap">
+    <div class="sec-header r">
+      <div class="sec-pre">05 — Recognition</div>
+      <h2 class="sec-title">Moments that <span>mattered</span></h2>
+    </div>
+    <div class="ach-g">
+      <div class="card ach r">
+        <div class="ach-ico">🥈</div>
+        <div>
+          <h4>2nd Place — Deep Minds (twice)</h4>
+          <p>Ranked 2nd in MSA's flagship CS competition — two consecutive semesters. Winning entry: a full Odoo ERP system for a clothing manufacturer covering sales, inventory, production, and supply chain.</p>
+        </div>
+      </div>
+      <div class="card ach r">
+        <div class="ach-ico">👥</div>
+        <div>
+          <h4>IEEE MSA Student Member</h4>
+          <p>Active since 2024. Attended workshops on AI, computer science, and engineering. Part of a community that takes this stuff seriously.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ──────────────────────────────────────────────── -->
+<section id="contact">
+  <div class="wrap">
+    <div class="card contact-box r">
+      <div class="sec-pre" style="justify-content:center;margin-bottom:20px">Let's work together</div>
+      <h2 class="contact-h">Looking for an AI/ML internship</h2>
+      <p class="contact-sub">
+        I want to work on problems that are hard enough to be interesting.
+        Based in Giza — open to remote. If you need someone who builds,
+        ships, and can explain every decision they made, let's talk.
+      </p>
+      <div class="contact-row">
+        <a class="btn btn-neon" href="mailto:mohamed.bahaa5@msa.edu.eg">📧 Email Me</a>
+        <a class="btn btn-ghost" href="https://github.com/MB1382005" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="btn btn-ghost" href="tel:+201023590395">+20 102 359 0395</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fcopy">© 2026 Mohamed Bahaa Attia · Giza, Egypt</div>
+    <div class="flinks">
+      <a href="https://github.com/MB1382005" target="_blank">GitHub</a>
+      <a href="mailto:mohamed.bahaa5@msa.edu.eg">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
